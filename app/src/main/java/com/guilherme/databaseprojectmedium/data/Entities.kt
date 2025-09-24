@@ -12,5 +12,5 @@ data class Airport(
     val name: String,
     val passenger: Int,
     @ColumnInfo(defaultValue = "")
-    val city: String
+    val country: String
 )

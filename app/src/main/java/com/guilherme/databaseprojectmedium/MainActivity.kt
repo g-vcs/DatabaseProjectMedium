@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                                         name = "airport",
                                         iataCode = "iataCode1",
                                         passenger = 250,
-                                        city = "Porto"
+                                        country = "Portugal"
                                     )
                                 )
                             }
