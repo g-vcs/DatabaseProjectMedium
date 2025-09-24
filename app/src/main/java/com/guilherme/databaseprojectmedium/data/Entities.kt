@@ -12,5 +12,6 @@ data class Airport(
     val name: String,
     val passenger: Int,
     @ColumnInfo(defaultValue = "")
-    val country: String
+    val country: String,
+    val createdAt: Long = System.currentTimeMillis()
 )
