@@ -9,10 +9,10 @@ import kotlinx.coroutines.launch
 class AirportViewModel : ViewModel() {
     private val airportDao = DatabaseApplication.database.airportDao()
 
-    fun insertAirport(name: String, iataCode: String, passengers: Int) {
+/*    fun insertAirport(name: String, iataCode: String, passengers: Int) {
         val airport = Airport(name = name, iataCode = iataCode, passenger = passengers)
         viewModelScope.launch {
             airportDao.insertAirport(airport)
         }
-    }
+    }*/
 }
